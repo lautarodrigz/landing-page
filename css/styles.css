@@ -4,12 +4,12 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
+
 header {
     display: flex;
-    padding: 0 200px;
+    padding: 0 150px;
     justify-content: space-between;
     background-color: #1f2937;
 }
@@ -21,29 +21,66 @@ header {
     gap: 15px;
 }
 
-.main {
-    display: flex;
-    padding: 0 200px;
-    justify-content: space-between;
-}
-
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
 }
 
 li {
-    font-size: 18px;}
+    font-size: 18px;
+}
 
 a {
     text-decoration: none;
 }
 
-li a {
-    color: #f9faf8;
+li a, .sign-button a {
+    color: #e5e7eb;
 }
 
-li a:visited {
-    color: #f9faf8;
+li a:visited, .sign-button a:visited {
+    color: #e5e7eb;
 }
 
+.main {
+    display: flex;
+    padding: 100px 150px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.main-container {
+    width: 450px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.awesome {
+    width: 450px;
+    height: 225px;
+}
+
+.sign-button {
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+ .sign-link {
+    font-weight: 700;
+ }
