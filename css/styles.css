@@ -191,3 +191,13 @@ li a:visited,
 .sign-button-alt a:visited {
     color: #e5e7eb;
 }
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 20px 0;
+    font-weight: 500;
+}
