@@ -34,11 +34,13 @@ a {
     text-decoration: none;
 }
 
-li a, .sign-button a {
+li a,
+.sign-button a {
     color: #e5e7eb;
 }
 
-li a:visited, .sign-button a:visited {
+li a:visited,
+.sign-button a:visited {
     color: #e5e7eb;
 }
 
@@ -47,7 +49,7 @@ li a:visited, .sign-button a:visited {
     padding: 100px 150px;
     background-color: #1f2937;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
 
 .main-container {
@@ -81,42 +83,111 @@ li a:visited, .sign-button a:visited {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
- .sign-link {
-    font-weight: 700;
- }
 
- .information {
+.sign-link {
+    font-weight: 700;
+}
+
+.information {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 100px;
- }
+}
 
- .info-text {
+.info-text {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
- }
+}
 
- .cards-container {
+.cards-container {
     display: flex;
     column-gap: 50px;
- }
+}
 
- .card {
+.card {
     width: 150px;
- }
+}
 
- .card-img {
+.card-img {
     width: 150px;
     height: 150px;
     border: 3px #3882f6 solid;
     border-radius: 8px;
- }
+}
 
- .card-text {
+.card-text {
     margin: 8px 0;
     color: #1f2937;
     text-align: center;
- }
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic; 
+    font-weight: 300;   
+    margin: 0;
+}
+
+.quote-ref {
+    font-weight: 800;
+    align-self: flex-end;
+    margin: 0;
+    font-size: 20px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    flex-basis: 700px;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.sign-up-title {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.sign-up-text {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.sign-button-alt {
+    background-color: #3882f6;
+    border: 2px #e5e7eb solid;
+    border-radius: 8px;
+    padding: 0 25px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 35px;
+}
+
+.sign-button-alt a {
+    color: #e5e7eb;
+}
+
+.sign-button-alt a:visited {
+    color: #e5e7eb;
+}
