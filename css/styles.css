@@ -30,20 +30,6 @@ li {
     font-size: 18px;
 }
 
-a {
-    text-decoration: none;
-}
-
-li a,
-.sign-button a {
-    color: #e5e7eb;
-}
-
-li a:visited,
-.sign-button a:visited {
-    color: #e5e7eb;
-}
-
 .main {
     display: flex;
     padding: 100px 150px;
@@ -67,6 +53,7 @@ li a:visited,
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .awesome {
@@ -75,16 +62,12 @@ li a:visited,
 }
 
 .sign-button {
-    margin-top: 10px;
     padding: 5px 25px;
     border-radius: 8px;
     border: none;
     background-color: #3882f6;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}
-
-.sign-link {
     font-weight: 700;
 }
 
@@ -135,8 +118,8 @@ li a:visited,
 
 .quote-text {
     font-size: 36px;
-    font-style: italic; 
-    font-weight: 300;   
+    font-style: italic;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -178,17 +161,17 @@ li a:visited,
     background-color: #3882f6;
     border: 2px #e5e7eb solid;
     border-radius: 8px;
-    padding: 0 25px;
-    font-weight: 700;
+    padding: 5px 25px;
+    font-weight: 800;
     font-size: 14px;
-    height: 35px;
 }
 
-.sign-button-alt a {
+a {
     color: #e5e7eb;
+    text-decoration: none;
 }
 
-.sign-button-alt a:visited {
+a:visited {
     color: #e5e7eb;
 }
 
